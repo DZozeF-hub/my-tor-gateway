@@ -1,0 +1,13 @@
+# bridges.txt
+# ============
+# Вставляйте сюда строки мостов КАК ЕСТЬ, как их выдаёт Tor Browser
+# или bridges.torproject.org — по одной на строку.
+# Строки, начинающиеся с # , игнорируются (комментарии).
+#
+# Поддерживаются любые типы: obfs4, webtunnel, snowflake и т.д. —
+# скрипт сам определит нужный транспорт из первого слова строки.
+#
+# Пример (замените на свои настоящие мосты):
+# webtunnel [2001:db8:e65a:afaf:7443:b5a5:f71d:ca4]:443 6FE31638D6084EDA6D94FADC99B0EDD109D6AE3A url=https://eu.g3wip.uk/7ePavP0vnTTelEJWeJ4NwpGE ver=0.0.1
+webtunnel [2001:db8:bce8:edf7:7b33:480b:fde5:4840]:443 A417275864EA76F47CEAD4071273D82917283A12 url=https://www3.ruhnama.net/Ly4uulgoy2LWmMX3fk007Gme ver=0.0.5
+webtunnel [2001:db8:e65a:afaf:7443:b5a5:f71d:ca4]:443 6FE31638D6084EDA6D94FADC99B0EDD109D6AE3A url=https://eu.g3wip.uk/7ePavP0vnTTelEJWeJ4NwpGE ver=0.0.1
